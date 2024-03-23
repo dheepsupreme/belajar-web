@@ -1,3 +1,3 @@
-module belajar-web
+module belajar_web
 
 go 1.22.1

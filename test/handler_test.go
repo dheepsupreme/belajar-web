@@ -39,6 +39,7 @@ func TestServeMux(t *testing.T) {
 		fmt.Fprint(writer, "menggunakan url pattern")
 	})
 
+	// Membuat server
 	server := http.Server{
 		Addr:    "localhost:8082",
 		Handler: mux,
